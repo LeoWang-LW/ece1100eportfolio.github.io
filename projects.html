@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Leo Wang</title>
+<meta name="description" content="Technical projects by Leo Wang: HyTech Racing PCB and firmware, Robot Tour, FTC robotics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html">Leo Wang</a>
+  <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html" aria-current="page">Projects</a></li><li><a href="goals.html">Career goals</a></li><li><a href="resume.html">Resume</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+
+<div class="wrap">
+  <h1>Projects</h1>
+  <p class="lede">Each project follows the same outline: the problem, what I did, and how it turned out. The newest is first, and I add to this page as I build more.</p>
+</div>
+
+<div class="wrap projects">
+
+  <article class="project" id="hytech">
+    <header>
+      <h2>HyTech Racing electrical onboarding</h2>
+      <p class="meta">Georgia Tech Formula SAE electric team, fall 2026.</p>
+    </header>
+    <div class="cols">
+      <div><h3>The problem</h3><p>HyTech asks every new electrical member to prove they can design a board and write firmware before they touch the car. I started with no experience in either tool.</p></div>
+      <div><h3>What I did</h3><p>Designed a keychain PCB in Altium, from schematic through layout. Then wrote firmware in PlatformIO for a temperature-sensing light.</p></div>
+      <div><h3>The outcome</h3><p>A team lead checked off the PCB on October 8, and I finished the firmware project after it. I'm now designing a brake light system for the car.</p></div>
+    </div>
+    <p><a href="https://github.com/LeoWang-LW/firmware-onboarding">Firmware onboarding code on GitHub</a></p>
+    <figure class="photo"><img src="images/keychain-pcb.jpg" alt="Keychain PCB designed in Altium" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>The keychain PCB.</figcaption></figure>
+  </article>
+
+  <article class="project" id="robot-tour">
+    <header>
+      <h2>Robot Tour autonomous robot</h2>
+      <p class="meta">Science Olympiad, Quince Orchard High School, 2024 to 2026.</p>
+    </header>
+    <div class="cols">
+      <div><h3>The problem</h3><p>Build a robot that drives itself through a randomized obstacle course, passes through gates for points, parks on a target zone, and finishes close to a target time.</p></div>
+      <div><h3>What I did</h3><p>Designed and built the robot with a partner for tight turning. It drifted off line, so I wrote stabilization and self-correction code to hold its heading.</p></div>
+      <div><h3>The outcome</h3><p>First place at the UMBC tournament and seventh at the Maryland state tournament.</p></div>
+    </div>
+    <figure class="photo"><img src="images/robot-tour.jpg" alt="Robot Tour robot" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>The Robot Tour robot.</figcaption></figure>
+  </article>
+
+  <article class="project" id="ftc">
+    <header>
+      <h2>FTC competition robot</h2>
+      <p class="meta">FIRST Tech Challenge, Quince Orchard High School Robotics Club, 2022 to 2026.</p>
+    </header>
+    <div class="cols">
+      <div><h3>The problem</h3><p>Each season FIRST Tech Challenge releases a new game, and teams have a few months to design, build and program a robot to play it.</p></div>
+      <div><h3>What I did</h3><p>Led the team through design, coding and assembly. Modeled and simulated prototypes in Onshape and Fusion 360, and 3D printed custom parts to FTC specifications. Mentored newer members in my last year.</p></div>
+      <div><h3>The outcome</h3><p>Regional semifinals as team lead, and the THINK Engineering Notebook Award the following season.</p></div>
+    </div>
+    <figure class="photo"><img src="images/ftc-robot.jpg" alt="FTC competition robot" loading="lazy" onerror="this.closest('figure').remove()"><figcaption>Our FTC competition robot.</figcaption></figure>
+  </article>
+
+</div>
+
+</main>
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <h2>Contact</h2>
+    <p>I'm looking for a summer 2027 internship in robotics or hardware engineering. Email is the fastest way to reach me.</p>
+    <ul class="contact-list">
+      <li><span>Email</span> <a href="mailto:leowang@gatech.edu">leowang@gatech.edu</a></li>
+      <li><span>GitHub</span> <a href="https://github.com/LeoWang-LW">github.com/LeoWang-LW</a></li>
+      <li><span>Based in</span> Atlanta, Georgia</li>
+    </ul>
+    <p class="fine">Leo Wang, Electrical Engineering, Georgia Institute of Technology, class of 2030.</p>
+  </div>
+</footer>
+
+</body>
+</html>

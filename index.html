@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leo Wang | Electrical engineering at Georgia Tech</title>
+<meta name="description" content="ePortfolio of Leo Wang, a first-year electrical engineering student at Georgia Tech focused on robotics and circuit design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html">Leo Wang</a>
+  <nav aria-label="Main"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="goals.html">Career goals</a></li><li><a href="resume.html">Resume</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+
+<section class="board" aria-label="Leo Wang, electrical engineering at Georgia Tech">
+  <div class="board-inner">
+    <span class="hole tl"></span><span class="hole tr"></span><span class="hole bl"></span><span class="hole br"></span>
+    <canvas id="matrix" aria-hidden="true"></canvas>
+    <p class="silk">An 8-row LED dot matrix, drawn one dot at a time. The same kind of display I like wiring up on a breadboard.</p>
+  </div>
+</section>
+
+<section class="wrap intro">
+  <h1>Leo Wang</h1>
+  <p class="lede">I'm a first-year electrical engineering student at Georgia Tech, focused on robotics and circuit design. I like building things that move and the boards that drive them. In high school that meant competition robots. Now it means PCBs and firmware for HyTech Racing, Georgia Tech's electric Formula SAE team.</p>
+  <p class="lede">My long-term goal is to use that work to make technology cleaner. I'm looking for a summer 2027 internship in robotics or hardware engineering.</p>
+  <p class="actions"><a class="button" href="projects.html">See my projects</a> <a class="button quiet" href="Leo_Wang_Resume.pdf" download>Download resume (PDF)</a></p>
+  <figure class="photo"><img src="images/headshot.jpg" alt="Portrait of Leo Wang" loading="lazy" onerror="this.closest('figure').remove()"><figcaption></figcaption></figure>
+</section>
+
+<section class="wrap">
+  <h2>What I'm working on now</h2>
+  <div class="now">
+    <article>
+      <h3>Fall 2026 classes</h3>
+      <p>Physics I, linear algebra, object-oriented programming in Java, and ECE 1100, the course that mapped out the electrical engineering degree for me.</p>
+    </article>
+    <article>
+      <h3><a href="projects.html#hytech">HyTech Racing</a></h3>
+      <p>I passed onboarding by designing a keychain PCB in Altium and writing firmware for a temperature-sensing light. My current task is a brake light system for the car.</p>
+    </article>
+    <article>
+      <h3><a href="goals.html">Planning the next four years</a></h3>
+      <p>Robotics and Autonomous Systems plus Circuit Technology threads, a first research experience, and a co-op by year three.</p>
+    </article>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Find your way around</h2>
+  <ul class="toc">
+    <li><a href="about.html">About me</a><span>How robots, climate advocacy and swimming got me to electrical engineering.</span></li>
+    <li><a href="projects.html">Projects</a><span>Three builds so far, from an FTC competition robot to a race car PCB.</span></li>
+    <li><a href="goals.html">Career goals</a><span>Where I want to be in five and ten years, and the steps between here and there.</span></li>
+    <li><a href="resume.html">Resume</a><span>Read it on the page or download the one-page PDF.</span></li>
+  </ul>
+</section>
+
+</main>
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <h2>Contact</h2>
+    <p>I'm looking for a summer 2027 internship in robotics or hardware engineering. Email is the fastest way to reach me.</p>
+    <ul class="contact-list">
+      <li><span>Email</span> <a href="mailto:leowang@gatech.edu">leowang@gatech.edu</a></li>
+      <li><span>GitHub</span> <a href="https://github.com/LeoWang-LW">github.com/LeoWang-LW</a></li>
+      <li><span>Based in</span> Atlanta, Georgia</li>
+    </ul>
+    <p class="fine">Leo Wang, Electrical Engineering, Georgia Institute of Technology, class of 2030.</p>
+  </div>
+</footer>
+<script src="matrix.js"></script>
+</body>
+</html>
